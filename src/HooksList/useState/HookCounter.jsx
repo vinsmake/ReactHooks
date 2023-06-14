@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export const CounterApp = () => {
+export const HookCounter = () => {
 
 
     const [Counter, setCounter ] = useState({
@@ -14,7 +14,7 @@ export const CounterApp = () => {
     return (
       <>
           <h2>Counter App</h2>
-          <h3>Using useState Hooks</h3>
+          <h3>Using useState Hook</h3>
           <h4>Summation: {counterSum}</h4>
           <h4>Multiply: {counterMul}</h4>
           <h4>150 Percent: {counterPor}</h4>
