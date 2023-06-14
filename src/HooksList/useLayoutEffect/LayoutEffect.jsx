@@ -1,7 +1,9 @@
 import { useCounter } from "../../Hooks/useCounter";
 import { useFetch } from "../../Hooks/useFetch";
-import { Quote, LoadingQuote } from "./";
-export const MultipleCustomHooks = () => {
+import { Quote, LoadingQuote } from "../examples";
+
+
+export const LayoutEffect = () => {
 
 
   const {counter, sum} =  useCounter(1);
@@ -10,8 +12,8 @@ export const MultipleCustomHooks = () => {
 
     /* !!data mean "if data have a valor" && "then" data[0] take the 0 element of the array */
     const {author, quote} = !!data && data[0];
-
-
+    
+    
     
     
       
